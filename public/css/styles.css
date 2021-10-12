@@ -287,3 +287,7 @@ footer p {
     padding: 5px;
     
 }
+.register{
+    display: flex;
+    justify-content: center;
+}
