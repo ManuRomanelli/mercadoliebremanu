@@ -264,3 +264,26 @@ footer p {
     text-align: left;
     margin-top: 10px;
 }
+.username{
+    text-align: center;
+    border-radius: 3px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.contraseña{
+    text-align: center;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    
+}
+.enviar{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    
+}
