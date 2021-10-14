@@ -38,76 +38,85 @@
                 </ul>
             </nav>
         </header>
-        <main class="register">
-            <form action="/" method="POST">
-                <input type="text" name="name" placeholder="Nombre y apellido">
-                <input type="text" name="user" placeholder="Nombre de usuario">
-                <input type="email" name="email" placeholder="E-mail">
-                <br>
-                <label for="birth_date"><b>Fecha de nacimiento</b></label>
-                <br>
-                <input type="date" name="birth_date" id="birth_date">
-                <br>
-                <input type="text" name="addres" placeholder="Domicilio">
-                <h4>Perfil del usuario</h4>
-                <div class="profile">
-                    <input type="radio" name="profile" value="buy" id="buy">
-                    <label for="buy">Comprador</label>
-                    <input type="radio" name="profile" value="sell" id="sell">
-                    <label for="sell">Vendedor</label>
-                </div>
+        <main>
+            <div class="register">
+             <form action="/" method="POST">
+                 <input type="text" name="name" placeholder="Nombre y apellido">
+                 <input type="text" name="user" placeholder="Nombre de usuario">
+                 <input type="email" name="email" placeholder="E-mail">
+                 <br>
+                 <label for="birth_date"><b>Fecha de nacimiento</b></label>
+                 <br>
+                 <input type="date" name="birth_date" id="birth_date">
+                 <br>
+                 <input type="text" name="addres" placeholder="Domicilio">
+                 <h4>Perfil del usuario</h4>
+                 <div class="profile">
+                     <input type="radio" name="profile" value="buy" id="buy">
+                     <label for="buy">Comprador</label>
+                     <input type="radio" name="profile" value="sell" id="sell">
+                     <label for="sell">Vendedor</label>
+                 </div>
 
-                <h4>Intereses</h4>
-                <div class="interests">
-                    <div>
-                        <input type="checkbox" name="interests" value="a" id="a">
-                        <label for="a">Electro</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="interests" value="b" id="b">
-                        <label for="b">Moda</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="interests" value="c" id="c">
-                        <label for="c">Hogar</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="interests" value="d" id="d">
-                        <label for="d">Juguetería</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="interests" value="e" id="e">
-                        <label for="e">Vida sana</label>
-                    </div>
-                </div>
+                  <h4>Intereses</h4>
+                  <div class="interests">
+                      <div>
+                         <input type="checkbox" name="interests" value="a" id="a">
+                         <label for="a">Electro</label>
+                      </div>
+                      <div>
+                         <input type="checkbox" name="interests" value="b" id="b">
+                         <label for="b">Moda</label>
+                      </div>
+                      <div>
+                         <input type="checkbox" name="interests" value="c" id="c">
+                         <label for="c">Hogar</label>
+                      </div>
+                      <div>
+                         <input type="checkbox" name="interests" value="d" id="d">
+                         <label for="d">Juguetería</label>
+                      </div>
+                      <div>
+                         <input type="checkbox" name="interests" value="e" id="e">
+                          <label for="e">Vida sana</label>
+                      </div>
+                  </div>
                 
-                <h4>Elegí tu foto de usuario</h4>
-                <input type="file" name="avatar">
-                <br>
-                <br>
-                <input type="password" name="pass" placeholder="Elegí tu contraseña">
-                <input type="password" name="pass_confirm" placeholder="Confirmá tu contraseña">
-                <br>
-                <br>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Borrar">
-                <br>
-                <br>
-            </form>
+                 <h4>Elegí tu foto de usuario</h4>
+                 <input type="file" name="avatar">
+                 <br>
+                 <br>
+                 <input type="password" name="pass" placeholder="Elegí tu contraseña">
+                 <input type="password" name="pass_confirm" placeholder="Confirmá tu contraseña">
+                 <br>
+                 <br>
+                 <input type="submit" value="Enviar">
+                 <input type="reset" value="Borrar">
+                 <br>
+                 <br>
+              </form>
+            </div>
         </main>
         <footer>
-            <section>
-                <i class="fas fa-credit-card"></i>
-                <h4>Pagá con Tarjeta o Efectivo</h4>
-                <p>Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
-                <i class="fas fa-gift"></i>
-                <h4>Envío gratis desde los $2.500</h4>
-                <p>Solo por estar registrado en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
-                <i class="fas fa-user-shield"></i>
-                <h4>Seguridad de principio a fin</h4>
-                <p>¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer porque estás siempre protegido/a.</p>
-                <p id="copyright">Copyright Ⓒ 1999-2020 MercadoLiebre S.R.L.</p>
-            </section>
+            <footer>
+                <section>
+                    <div class="cardpay">
+                      <i class="fas fa-credit-card"></i>
+                      <h4>Pagá con Tarjeta o Efectivo</h4>
+                      <p>Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+                    </div> 
+                    <div class="shipping">
+                      <i class="fas fa-gift"></i>
+                      <h4>Envío gratis desde los $2.500</h4>
+                      <p>Solo por estar registrado en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+                    </div>
+                    <div class="safety">
+                      <i class="fas fa-user-shield"></i>
+                      <h4>Seguridad de principio a fin</h4>
+                      <p>¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer porque estás siempre protegido/a.</p>
+                    </div>
+                    <p id="copyright">Copyright Ⓒ 1999-2020 MercadoLiebre S.R.L.</p>
+                </section>
         </footer>
     </body>
 </html>
