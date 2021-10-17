@@ -6,7 +6,7 @@ const app = express();
 const publicPath = path.resolve(__dirname, './public');
 app.use(express.static(publicPath));
 
-app.listen(process.env.PORT || 3030,  function() => {
+app.listen(process.env.PORT || 3030,  function()  {
     console.log("Levantando un servidor con Express")
 });
 
